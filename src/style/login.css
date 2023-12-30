@@ -1,0 +1,13 @@
+.login{
+    text-align: center;
+    
+}
+
+.Button{
+    margin-top: 50px;
+    padding: 20px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}

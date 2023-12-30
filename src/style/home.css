@@ -1,0 +1,29 @@
+.Container-1{
+    
+    width: 100%;
+    background-color: rgb(7,6,15);
+    display: block;       
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Container-2{
+    text-align: center;
+}
+
+.fields{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 940px){
+    .fields{
+        flex-direction: column;
+        align-items: center;
+    }
+}

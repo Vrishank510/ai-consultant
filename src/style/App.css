@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Container{
+    
+    width: 100vmax;
+    background-color: rgb(7,6,15);
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.login{
+    background-color: rgb(40,39,47);
+    border-radius: 10px;
+    border-style: double;
+    border-color: rgb(60,59,67);
+    padding: 30px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+input{
+    background-color: rgb(55,54,62);
+    padding-block: 15px;
+    font-size: large;
+    color: white;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-style: none;
+    display: block;
+    margin-block: 10px;
+    width: 100%;
+    
+}
+
+label{
+    font-size: larger;
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 10px;
+    float: left;
+    
+}
+
+button{
+   
+    
+    border-radius: 5px;
+    width: 100%;
+    padding-block: 10px;
+    margin-top: 30px;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+
+.Popup{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+
+}
+
+.thirdParty{
+    background-color: rgb(98,97,104);
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+    padding-inline: 20px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .login{
+        width: 100%;
+        
+    }
+
+    .Container{
+        width: 100%;
+        padding-inline: 50px;
+       
+    }
+    button{
+        font-size: x-large;
+    }
+}

@@ -1,0 +1,16 @@
+.field{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(40,39,47);
+    border-radius: 10px;
+    margin-inline: 30px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.icon{
+    font-size: 500%;
+    margin-block: 20px;
+}
+.field:hover{
+    background-color: rgb(66, 65, 74);
+}

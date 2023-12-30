@@ -1,0 +1,25 @@
+.container{
+    padding-inline: 100px;
+    padding-top: 50px;
+}
+
+.prompt{
+    padding-inline: 20px;
+    
+}
+
+.law-form{
+    display: flex;
+    align-items: baseline;
+}
+
+button{
+    width: 100px;
+    margin-inline: 20px;
+}
+
+.answer{
+    border-style: solid;
+    margin-top: 20px;
+    padding-block: 10px;
+}
